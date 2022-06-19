@@ -1190,94 +1190,51 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
-
-.aporte {
-    position: relative;
-    bottom: 50px;
-    color: white;
-    font-size: 74px;
-    font-family: nba-celtics;
-}
-
-form {
-    width: 90%;
-    max-width: 600px;
-}
-
-.input-grupo {
-    margin-bottom: 30px;
-    position: relative;
-}
-
-textarea {
-    color: white;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    outline: 0;
-    border: 2px solid #fff;
-    background: transparent;
-    font-size: 16px;
-}
-
-label {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
+.titulo-forum {
     color: #fff;
-    cursor: text;
-    transition: 0.2s;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
 }
 
-button {
-    padding: 10px 0;
-    color: #fff;
-    outline: none;
-    background: transparent;
-    border: solid 2px #fff;
-    width: 100%;
-    cursor: pointer;
-    margin-left: 10px;
+.forum-border-color {
+    border: solid 3px white;
+    border-radius: 3px;
+    padding: 40px;
 }
 
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label {
-    top: -35px;
-    font-size: 14px;
+.form-control {
+    margin-top: 10px;
 }
 
-.forum-row {
+#buttons-forum-social {
     display: flex;
-    align-items: center;
-    justify-content: space-around
+    flex-direction: row;
+    justify-content: center;
 }
 
-.forum-row .imput-grupo {
-    flex-basis: 48%;
+#buttons-forum-social button{
+    width: 40px;
 }
 
-.forum-row-2 {
+.sign-up-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-#nombre,
-#email {
-    color: white;
+.icons-bottom-forum{
+    display: flex;
+    justify-content: center;
+}
+#floatingTextarea {
+    height: 200px;
 }
 
-#mensaje {
-    margin-bottom: 10px;
+.submit-button {
+    text-align: center;
+    margin-top: 20px;
 }
-
-
 
 /* ----------------------------MEDIA QUERY-----------------------*/
 @media screen and (max-width:1500px) {}
@@ -1338,6 +1295,9 @@ textarea:valid~label {
 
 
 }
+
+
+
 
 @media screen and (max-width:830px) {
 

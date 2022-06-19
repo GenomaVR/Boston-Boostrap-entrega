@@ -23,27 +23,6 @@
     <!-- HEADER -->
     <header>
         <!-- NAV BAR -->
-        <!-- <nav class="nav-bar">
-
-            <a class="margin-logo" href="./index.html">
-                <img class="logo-nav" src="./img/logo.png" alt="logoBoston">
-            </a>
-            <ul>
-                <li>
-                    <a href="./index.html">INICIO</a>
-                </li>
-                <li><a href="./equipo.html">EQUIPO</a>
-                </li>
-                <li><a href="./galeria.html">GALERIA</a>
-                </li>
-                <li><a href="./historia.html">HISTORIA</a>
-                </li>
-                <li><a href="./contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-
-        </nav> -->
-
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -76,7 +55,7 @@
         </nav>
     </header>
 
-    <main>
+    <!-- <main>
         <div class="bkg-img">
             <h1 class="aporte">Dejanos tu aporte!</h1>
             <form>
@@ -90,10 +69,6 @@
                         <label for="email"><i class="fa-solid fa-envelope"></i>Tu email</label>
                     </div>
                 </div>
-                <!-- <div class="input-grupo">
-                    <input type="text" id="numero">
-                    <label for="numero">Tu numero</label>
-                </div> -->
                 <div class="forum-row-2">
                     <div class="input-grupo">
                         <textarea id="mensaje" rows="8" cols="1" required></textarea>
@@ -105,7 +80,41 @@
 
             </form>
         </div>
+    </main> -->
+    <main>
+        <form class="row g-3 needs-validation" novalidate>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="bkg-img">
+                <div class="forum-border-color">
+                    <p class="titulo-forum">Envianos tu consulta aquí</p>
+                    <!-- name y last name -->
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                        </div>
+                    </div>
+                    <!-- email -->
+                    <div class="form-floating mb-3" id="email-form">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <!-- comentarios -->
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Dejanos tu aporte</label>
+                      </div>
+                      <div class="submit-button">
+                      <button type="submit" class="btn btn-primary">Enviar aporte</button>
+                    </div>
+                </div>
+            </div>
+        </form>
     </main>
+
+
     <!-- Footer -->
     <footer class="text-center text-lg-start text-muted">
         <!-- REDES-->
