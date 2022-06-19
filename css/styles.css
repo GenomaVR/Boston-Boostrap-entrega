@@ -396,7 +396,7 @@ footer {
     font-family: nba-celtics;
     margin-top: 30px;
     background-color: #007A33;
-    color: #000;
+    color: #fff;
     font-size: 60px;
     text-align: center;
 }
@@ -419,10 +419,10 @@ footer {
     position: relative;
 }
 
-.w-2-2 {
+/* .w-2-2 {
     grid-column: span 2;
     grid-row: span 2;
-}
+} */
 
 .w-2 {
     grid-column: span 2;
